@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// My imports
+import './fonts/Montserrat-Black.ttf'; 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
