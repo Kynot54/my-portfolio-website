@@ -6,16 +6,17 @@ import MyProjects from "./components/Projects"
 import MyContact from "./components/Contact"
 import MyFooter from "./components/Footer"
 
-import "./index.css"
 import "./fonts/fonts.css";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import "./index.css"
+
 function App() {
   return (
-    <div className="App">
+    <div id="App">
         <MyNavBar className="viewport"/>
-        <MyHeader className="App-logo viewport"/>
+        <MyHeader className="viewport"/>
         <MyAbout className="viewport" />
         <MyProjects className="viewport" />
         <MyContact className="viewport" />

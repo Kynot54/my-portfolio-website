@@ -13,6 +13,10 @@ p {
     margin-bottom: 1.5rem;
 }
 
+#project-button:hover {
+    opacity: 0.70;
+}
+
 @media (max-width: 768px) {
     #project-button {
         font-size: 100%;
