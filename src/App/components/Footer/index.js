@@ -11,13 +11,6 @@ export default function MyFooter() {
                 <Container>
                     <Row>
                         <Col></Col>
-                            <Col>
-
-                            </Col>
-                        <Col></Col>
-                    </Row>
-                    <Row>
-                        <Col></Col>
                         <Col>
                            <a href="https://github.com/Kynot54"><i className="fab fa-github"></i></a>
                         </Col>

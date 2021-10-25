@@ -13,7 +13,7 @@ export default function MyHeader() {
         <header id="home" className="viewport">
             <Container fluid>
                 <Row>
-                    <Col>  <Image src={logo} className="App-logo" alt="logo" /> </Col>
+                    <Col>  <Image src={logo} className="logo" alt="logo" /> </Col>
                 </Row>
             <br />
                 <MyButton />

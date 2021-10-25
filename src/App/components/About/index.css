@@ -1,6 +1,8 @@
 #about {
     background-image: linear-gradient(135deg,#E90DDA,#15CFF1);
-    padding-bottom: 5em;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 0;
 }
 
 .about-title {
@@ -28,5 +30,11 @@
     #pro-pic {
         align-self: center;
         margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        
     }
 }

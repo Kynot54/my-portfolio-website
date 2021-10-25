@@ -11,6 +11,10 @@
     opacity: 90%;
 }
 
+p {
+    color:rgba(255,255,255,.80);
+}
+
 .fa-github {color: whitesmoke;}
 .fa-github:hover {color: rgba(255,255,255,.80);}
 

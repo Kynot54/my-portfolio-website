@@ -24,13 +24,13 @@ export default function MyNavBar() {
                     </Navbar.Brand>
                 </Col>
                 <Col></Col>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link className="link" href="#home">Home</Nav.Link>
-                        <Nav.Link className="link" href="#about">About</Nav.Link>
-                        <Nav.Link className="link" href="#project">Projects</Nav.Link>
-                        <Nav.Link className="link" href="#contact">Contact</Nav.Link>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" >
+                    <Nav>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#project">Projects</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
