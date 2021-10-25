@@ -1,0 +1,19 @@
+#resume:hover {
+    background-color: rgba(255,255,255,.035);
+    color: white;
+    border-style: solid;
+    
+}
+
+#resume{
+    margin-bottom: 1.5rem;
+    border-width: .125em;
+    font-size: 150%;
+    border-style: solid;
+}
+
+@media (max-width: 768px) {
+    #resume {
+        font-size: 100%;
+    }
+}

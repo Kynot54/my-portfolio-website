@@ -1,0 +1,50 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    min-height: 10rem;
+    width: 100%;
+    pointer-events: none;
+    margin-top: 1.5rem;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+      animation: App-logo-spin 36s 3 forwards;
+      opacity: 0.78;
+     }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+    100% { 
+        opacity: 1;
+    }
+  }
+
+.viewport {
+      align-items: center;
+      display: flex;
+      margin-bottom: 10.69rem;
+      min-height: 100vh;
+      padding: 0 1rem;
+}
+
+@media (max-width: 425px) {
+  .viewport{
+    display: block;
+    margin-bottom: 1rem;
+    min-height: auto;
+  }
+}
+
+.foot {
+  flex-direction: wrap;
+  justify-content: center;
+}
