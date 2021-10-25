@@ -1,0 +1,23 @@
+#brand {
+    padding-left: .5em;
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+ @media (min-width: 2560px) {
+    .link {
+        font-size: 200%;
+    }
+ }
+
+ @media (min-width: 1024px) {
+    .link {
+        padding-right: .5rem;
+    }
+ }
+
+ /* @media (min-width: 768px) {
+    
+ } */
