@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col"
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
+
 import "./index.css"
 
 
