@@ -17,7 +17,7 @@ export default function MyProjects() {
                     <Col sm={6} xs={12}>
                             <h3>Project 1</h3>
                             <br />
-                            <p>This is my first project.</p>
+                            <p>Coming Soon!</p>
                             <br />
                             <Button />
                     </Col>
@@ -32,10 +32,10 @@ export default function MyProjects() {
                             <h3>Project 2</h3>
                             <br />
                             <p>
-                                This is my second project.
+                                To be determined.
                             </p>
                             <br />
-                            <Button />
+                            {/* <Button /> */}
                     </Col>
 
                     <Col sm={6} xs={12}>
@@ -48,10 +48,10 @@ export default function MyProjects() {
                             <h3>Project 3</h3>
                             <br />
                             <p>
-                                This is my third project.
+                                To be determined.
                             </p>
                             <br />
-                            <Button />
+                            {/* <Button /> */}
                     </Col>
 
                     <Col sm={6} xs={12}>
