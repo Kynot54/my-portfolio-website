@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kyle App",
+  "name": "Kyle Whynott Portfolio Website",
+  "description": "A Portfolio Site for Future Jobs and Internships",
   "icons": [
     {
       "src": "favicon.ico",
