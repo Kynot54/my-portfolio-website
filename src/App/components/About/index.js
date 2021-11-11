@@ -11,7 +11,7 @@ export default function MyAbout() {
         <section id="about" className="viewport">
             <Container fluid>
                 <br />
-                <h1 className="about-text about-title">About Me</h1> 
+                <h2 className="about-text about-title">About Me</h2> 
                 <Row>
                     <Col sm={6} xs={12}>
                         <Image id="pro-pic" alt="" src={profile} rounded fluid></Image>

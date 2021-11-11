@@ -12,7 +12,7 @@ export default function MyProjects() {
         <section id="project" className="viewport">
             <Container>
                 <br />
-                <h1 id="projects-title">Projects</h1>
+                <h2 id="projects-title">Projects</h2>
                 <Row>
                     <Col sm={6} xs={12}>
                             <h3>Project 1</h3>

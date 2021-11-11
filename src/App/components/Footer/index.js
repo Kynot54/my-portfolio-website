@@ -2,7 +2,11 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa";
 import "./index.css"
+
 
 export default function MyFooter() {
     return (
@@ -12,13 +16,13 @@ export default function MyFooter() {
                     <Row>
                         <Col></Col>
                         <Col>
-                           <a href="https://github.com/Kynot54"><i className="fab fa-github"></i></a>
+                           <FaGithub id="githubIcon" href="https://github.com/Kynot54" />
                         </Col>
                         <Col>
-                            <a href="https://www.linkedin.com/in/kyle-whynott/"><i className="fab fa-linkedin"></i></a>
+                            <FaLinkedin id="linkedinIcon" href="https://www.linkedin.com/in/kyle-whynott/" />
                         </Col>
                         <Col>
-                            <a href="https://stackoverflow.com/users/16310474/kynott54"><i className="fab fa-stack-overflow"></i></a>
+                            <FaStackOverflow id="stackOverflowIcon" href="https://stackoverflow.com/users/16310474/kynott54" />
                         </Col>
                         <Col></Col>
                     </Row>
