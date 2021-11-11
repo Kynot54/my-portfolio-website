@@ -10,29 +10,21 @@
     opacity: 90%;
 }
 
-.fa-github {color: whitesmoke;}
-.fa-github:hover {color: rgba(255,255,255,.80);}
+#githubIcon {color: whitesmoke;}
+#githubIcon:hover {color: rgba(255,255,255,.80);}
 
-.fa-linkedin {color: whitesmoke;}
-.fa-linkedin:hover {color: rgba(255,255,255,.80);}
+#linkedinIcon {color: whitesmoke;}
+#linkedinIcon:hover {color: rgba(255,255,255,.80);}
 
-.fa-stack-overflow {color:whitesmoke}
-.fa-stack-overflow:hover {color: rgba(255,255,255,.80);}
+#stackOverflowIcon {color:whitesmoke}
+#stackOverflowIcon:hover {color: rgba(255,255,255,.80);}
 
 @media (min-width: 1024px) {
     #hr-line {
         height: .125em;
     }
-    .svg-inline--fa {
+    #githubIcon #linkedinIcon #stackOverflowIcon {
         height: 1.5em;
-    }
-    .svg-inline--fa.fa-w-16 {
         width: 1.5em;
     }
-    .svg-inline--fa.fa-w-14 {
-        width: 1.5em;
-    }
-    .svg-inline--fa.fa-w-12 {
-        width: 1.5em;
-    } 
 }

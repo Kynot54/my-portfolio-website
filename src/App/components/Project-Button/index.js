@@ -8,7 +8,7 @@ export default function MyButton() {
         <>
             <Row>
                 <Col>
-                    <Button id="project-button" variant="outline-primary" href={''} size="lg">See More</Button>
+                    <Button className="see-more-button" variant="outline-primary" href={''} size="lg">See More</Button>
                 </Col>
             </Row>
         </>

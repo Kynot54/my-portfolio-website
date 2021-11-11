@@ -10,7 +10,7 @@ export default function MyHeader() {
         <section id="contact" className="viewport">
             <Container>
                 <Row>
-                    <Col> <h1 id="contact-title" className="contact-text">Get in Contact</h1> </Col>
+                    <Col> <h2 id="contact-title" className="contact-text">Get in Contact</h2> </Col>
                 </Row>
             <br />
                 <Row>
