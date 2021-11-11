@@ -1,7 +1,6 @@
 #footer {
     background-color: rgba(0,0,0,.90);
     padding-top: 5rem;
-    margin-top: 0;
 }
 
 #hr-line {
@@ -9,10 +8,6 @@
     height: .1em;
     background-color: whitesmoke;
     opacity: 90%;
-}
-
-p {
-    color:rgba(255,255,255,.80);
 }
 
 .fa-github {color: whitesmoke;}
