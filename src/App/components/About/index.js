@@ -8,7 +8,6 @@ import "./index.css"
 
 export default function MyAbout() {
     return(
-
         <section id="about" className="viewport">
             <Container fluid>
                 <br />

@@ -1,17 +1,19 @@
 .App {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 .viewport {
-      align-items: center;
-      display: flex;
-      margin-bottom: 10.69rem;
-      min-height: 100vh;
-      padding: 0 1rem;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10.69rem;
+  min-height: 100vh;
+  padding: 0 1rem;
 }
 
 @media (max-width: 768px) {
-
+    html {
+      scroll-padding-top: 13rem; /* height of sticky header */
+    }
 }
 
 @media (max-width: 425px) {

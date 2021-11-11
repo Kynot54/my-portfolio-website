@@ -12,15 +12,12 @@ export default function MyProjects() {
         <section id="project" className="viewport">
             <Container>
                 <br />
-                <h1>Projects</h1>
-                <br />
+                <h1 id="projects-title">Projects</h1>
                 <Row>
                     <Col sm={6} xs={12}>
                             <h3>Project 1</h3>
                             <br />
-                            <p>
-                                This is my first project.
-                            </p>
+                            <p>This is my first project.</p>
                             <br />
                             <Button />
                     </Col>
