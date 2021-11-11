@@ -9,7 +9,7 @@ const cspConfigPolicy = {
     'style-src': ["'self'"],
     'style-src-elem': "fonts.googleapis.com",
     'font-src': "fonts.gstatic.com",
-    'img-src': " self " && " w3.org ",
+    'img-src': " self " && " www.w3.org/2000/svg ",
 };
 
 function addCspHtmlWebpackPlugin(config) {
