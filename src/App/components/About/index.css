@@ -17,6 +17,10 @@
     text-align: justify;
 }
 
+#pro-pic {
+    max-height: 85%;
+}
+
 @media (min-width: 2560px) {
     .about-text {
         font-size: 200%;

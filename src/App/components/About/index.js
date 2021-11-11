@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "../Resume-Button"
 import Image from "react-bootstrap/Image"
-import profile from "../../Images/profile.jpg";
+import profile from "../../Images/profile.webp";
 import "./index.css"
 
 export default function MyAbout() {
