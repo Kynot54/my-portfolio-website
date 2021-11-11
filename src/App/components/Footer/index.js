@@ -17,13 +17,13 @@ export default function MyFooter() {
                     <Row>
                         <Col></Col>
                         <Col>
-                           <FaGithub id="githubIcon" href="https://github.com/Kynot54" />
+                            <a href="https://github.com/Kynot54" target="_blank" rel="noreferrer"> <FaGithub id="githubIcon"/> </a>
                         </Col>
                         <Col>
-                            <FaLinkedin id="linkedinIcon" href="https://www.linkedin.com/in/kyle-whynott/" />
+                            <a href="https://www.linkedin.com/in/kyle-whynott/" target="_blank" rel="noreferrer"> <FaLinkedin id="linkedinIcon" /> </a>
                         </Col>
                         <Col>
-                            <FaStackOverflow id="stackOverflowIcon" href="https://stackoverflow.com/users/16310474/kynott54" />
+                            <a href="https://stackoverflow.com/users/16310474/kynott54" target="_blank" rel="noreferrer"> <FaStackOverflow id="stackOverflowIcon" /> </a>
                         </Col>
                         <Col></Col>
                     </Row>
