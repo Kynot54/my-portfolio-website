@@ -7,8 +7,9 @@ const cspConfigPolicy = {
     'object-src': "'none'",
     'script-src': ["'self'"],
     'style-src': ["'self'"],
-    'style-src-elem': "https://fonts.googleapis.com",
-    'img-src': "http://www.w3.org",
+    'style-src-elem': "fonts.googleapis.com",
+    'font-src': "fonts.gstatic.com",
+    'img-src': [" 'self' 'w3.org' "],
 };
 
 function addCspHtmlWebpackPlugin(config) {
