@@ -1,8 +1,17 @@
-#brand-home-button {
-    padding-left: .5em;
+#brand-home-brand {
+    padding-right: 10rem;
 }
 
  @media (min-width: 2560px) {
+    #brand-home-brand {
+        padding-right: 30rem;
+    }
+    #brand-home-brand-logo {
+        width: 15%;
+    }
+    #responsive-navbar-nav {
+        font-size: 180%;
+    }
     .link {
         font-size: 200%;
     }
@@ -11,5 +20,17 @@
  @media (min-width: 1024px) {
     .link {
         padding-right: .5rem;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 1440px) {
+    #brand-home-brand {
+        padding-right: 12rem;
+     }
+     #brand-home-brand-logo {
+        width:25%;
+     }
+     #responsive-navbar-nav {
+        font-size: 125%;
     }
  }

@@ -13,12 +13,12 @@ export default function MyNavBar() {
          <Navbar collapseOnSelect sticky="top" bg="light" expand="lg">
             <Container fluid>
                 <Col>
-                    <Navbar.Brand id="brand-home-button" href="home">
-                        <Image
+                    <Navbar.Brand id="brand-home-brand" href="home">
+                        <Image id="brand-home-brand-logo"
                         src={logo}
                         alt="my logo"
-                        width="100%"
-                        max-height="90%"
+                        width="30%"
+                        max-height="30%"
                         className="d-inline-block">
                         </Image>
                     </Navbar.Brand>
