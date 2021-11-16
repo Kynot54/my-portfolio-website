@@ -4,7 +4,7 @@
 
  @media (min-width: 2560px) {
     #brand-home-brand {
-        padding-right: 30rem;
+        padding-right: 35rem;
     }
     #brand-home-brand-logo {
         width: 15%;
@@ -23,7 +23,19 @@
     }
  }
 
- @media (min-width: 768px) and (max-width: 2559px) {
+@media (min-width:1920px) and (max-width: 2559px) {
+    #brand-home-brand {
+        padding-right: 20rem;
+     }
+     #brand-home-brand-logo {
+        width:25%;
+     }
+     #responsive-navbar-nav {
+        font-size: 180%;
+    }
+}
+
+ @media (min-width: 768px) and (max-width: 1919px) {
     #brand-home-brand {
         padding-right: 12rem;
      }
