@@ -21,7 +21,7 @@
     max-height: 85%;
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 1440px) and (max-width: 2560px) {
     .about-text {
         font-size: 200%;
     }

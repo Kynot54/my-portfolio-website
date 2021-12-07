@@ -14,7 +14,7 @@ export default function MyNavBar() {
             <Container fluid>
                 <Col>
                     <Navbar.Brand id="brand-home-brand" href="home">
-                        <Image id="brand-home-brand-logo"
+                        <Image id="home brand-home-brand-logo"
                         src={logo}
                         alt="my logo"
                         width="30%"
