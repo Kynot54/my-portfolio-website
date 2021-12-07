@@ -13,9 +13,9 @@ export default function MyNavBar() {
          <Navbar collapseOnSelect sticky="top" bg="light" expand="lg">
             <Container fluid>
                 <Col>
-                    <Navbar.Brand id="brand-home-brand" href="home">
+                    <Navbar.Brand id="brand-home-brand" href="#home">
                         <Image id="brand-home-brand-logo"
-                        href="#home"
+                        //href="#home"
                         src={logo}
                         alt="my logo"
                         width="30%"
