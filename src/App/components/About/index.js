@@ -19,10 +19,10 @@ export default function MyAbout() {
 
                     <Col sm={6} xs={12}>
                         <p className="about-text about-paragraph">
-                            Hello! As you may have guessed from my logo I am Kyle Whynott.
+                            Hello! I am Kyle Whynott.
                         <br /> 
                         <br />
-                            Currently, I am a college student starting in Spring 2022 at Cal State University Fullerton. 
+                            Currently, I am a college student at California State University, Fullerton. 
                             My major is in Computer Science and my focus is on Software Engineering.
                         </p>
                         <br />
