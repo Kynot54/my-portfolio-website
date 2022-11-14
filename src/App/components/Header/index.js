@@ -1,24 +1,28 @@
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import logo from "../../Images/logo.svg"
 import Image from "react-bootstrap/Image"
-import MyButton from "../KnowMore-Button"
+import Button from "react-bootstrap/Button"
+
+import {button} from "../../data.js"
 
 import "./index.css"
 
-export default function MyHeader() {
+const MyHeader = (props) => {
+    const {image} = props
     return (
     <>
-        <header id="home" className="viewport">
-            <Container fluid>
+        <header id="header" className="viewport">
+            <Container>
                 <Row>
-                    <Col>  <Image src={logo} className="logo" alt="logo" /> </Col>
+                    <Col>  <Image src={image} className="logo" alt="logo" /> </Col>
                 </Row>
-            <br />
-                <MyButton />
+            <br />  
+                <Button id={`${button[0].id}`} variant={`${button[0].variantType}`} href={`${button[0].hLink}`} size={`${button[0].size}`}> {`${button[0].name}`} </Button>
             </Container>
         </header>
     </> 
     );
 }
+
+export default MyHeader;
