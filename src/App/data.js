@@ -8,6 +8,7 @@ import bar from "./Images/bar.webp"
 import cat from "./Images/cat.webp"
 import catApp from "./Images/CatPhotoGallery.zip"
 
+
 //Import Font Styles for Data
 import "./fonts/fonts.css";
 
@@ -60,7 +61,7 @@ export const projects = [
         paragraph: "Over the Summer of 2022 I conducted research on Machine Learning and Data Analysis with the Center for Inclusive Computing | Pathways, Pipeline, Practice (CIC | PCUBED) whose goal is to increase the transfer, retention, and graduation rates of women majoring and minoring in Computer Science at CSU Fullerton",
         image: bar,
         seeMore: "https://youtu.be/kYJCJBx4Dm0",
-        sourceCode: "https://github.com/Kynot54/SpotifyDataScience",
+        sourceCode: "https://github.com/Kynot54/SpotifyDataScience"
     },
     {
         title: "Cat Photo Gallery App",
@@ -68,6 +69,7 @@ export const projects = [
         image: cat,
         seeMore: catApp,
         sourceCode: "https://github.com/Kynot54/CatPhotoGallery",
+
     }
 ]
 

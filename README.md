@@ -25,3 +25,7 @@ Original Design Idea from [@cobidev](https://github.com/cobidev)
 Redeveloped and Design Changes were made by myself.
 
 New changes, improvements, and fixes to my portfolio website will come in the near future. I plan to be updating in-between other projects I will be developing.
+
+[UPDATE] 11/14: New Projects Added, Resume Updated, Props Added. 
+
+[In the Upcoming Update]: Dynamic Themeing Using useEffect and useState Hooks
