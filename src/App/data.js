@@ -6,6 +6,8 @@ import doblin from "./Images/Doblin.webp"
 import resume from "./Images/Resume.pdf"
 import bar from "./Images/bar.webp"
 import cat from "./Images/cat.webp"
+import catApp from "./Images/CatPhotoGallery.zip"
+
 
 //Import Font Styles for Data
 import "./fonts/fonts.css";
@@ -58,15 +60,16 @@ export const projects = [
         title: "Spotify Data Analysis",
         paragraph: "Over the Summer of 2022 I conducted research on Machine Learning and Data Analysis with the Center for Inclusive Computing | Pathways, Pipeline, Practice (CIC | PCUBED) whose goal is to increase the transfer, retention, and graduation rates of women majoring and minoring in Computer Science at CSU Fullerton",
         image: bar,
-        seeMore: "",
-        sourceCode: "",
+        seeMore: "https://youtu.be/kYJCJBx4Dm0",
+        sourceCode: "https://github.com/Kynot54/SpotifyDataScience"
     },
     {
         title: "Cat Photo Gallery App",
         paragraph: "Back in my Community College I took a App Development Class on Android Development in Java. I have since updated the application to be coded in Kotlin and Fixed a Bug where the Sorting of the List Was Not Working Properly.",
         image: cat,
-        seeMore: "",
-        sourceCode: "",
+        seeMore: catApp,
+        sourceCode: "https://github.com/Kynot54/CatPhotoGallery",
+
     }
 ]
 
