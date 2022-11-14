@@ -4,8 +4,6 @@ import Col from "react-bootstrap/Col"
 
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaStackOverflow } from "react-icons/fa";
-
 import "./index.css"
 
 
@@ -21,9 +19,6 @@ export default function MyFooter() {
                         </Col>
                         <Col>
                             <a href="https://www.linkedin.com/in/kyle-whynott/" target="_blank" rel="noreferrer"> <FaLinkedin id="linkedinIcon" /> </a>
-                        </Col>
-                        <Col>
-                            <a href="https://stackoverflow.com/users/16310474/kynott54" target="_blank" rel="noreferrer"> <FaStackOverflow id="stackOverflowIcon" /> </a>
                         </Col>
                         <Col></Col>
                     </Row>

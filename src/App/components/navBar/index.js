@@ -3,20 +3,20 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Nav  from "react-bootstrap/Nav";
-import logo from "../../Images/logo_no_title.svg";
-
 import "./index.css";
 
-export default function MyNavBar() {
+const MyNavBar = (props) => {
+    const {tab1, image, tab2, tab3, tab4} = props
     return (
     <>
+        <top id="home"></top>
          <Navbar collapseOnSelect sticky="top" bg="light" expand="lg">
             <Container fluid>
                 <Col>
                     <Navbar.Brand id="brand-home-brand" href="#home">
                         <Image id="brand-home-brand-logo"
-                        //href="#home"
-                        src={logo}
+                        href={`#${tab1}`}
+                        src={image}
                         alt="my logo"
                         width="30%"
                         max-height="30%"
@@ -28,10 +28,10 @@ export default function MyNavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" >
                     <Nav>
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#project">Projects</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#home">{tab1}</Nav.Link>
+                        <Nav.Link href="#about">{tab2}</Nav.Link>
+                        <Nav.Link href="#project">{tab3}</Nav.Link>
+                        <Nav.Link href="#contact">{tab4}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -39,3 +39,5 @@ export default function MyNavBar() {
     </>
  );
 }
+
+export default MyNavBar;

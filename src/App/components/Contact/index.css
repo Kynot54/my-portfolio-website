@@ -3,10 +3,16 @@
     margin-bottom: 0rem;
 }
 
-#contact-title {
+#title {
     margin-top: 1.5rem;
 }
 
-.contact-text {
+.text {
     color: white;
+}
+
+#email-container {
+    margin-top: 1rem;
+    
+    padding: 1em;
 }
