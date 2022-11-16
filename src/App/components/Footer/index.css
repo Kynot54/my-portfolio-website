@@ -1,32 +1,56 @@
-#footer {
+#light_footer {
     background-color: rgba(0,0,0,.90);
     padding-top: 5rem;
 }
 
-#hr-line {
+#dark_footer {
+    background-color: rgba(255,255,255,.90);
+    padding-top: 5rem; 
+}
+
+#light_hr-line {
     width: 100%;
     height: .25em;
     background-color: whitesmoke;
 }
 
+#dark_hr-line {
+    width: 100%;
+    height: .25em;
+    background-color: (10,10,10);
+}
+
+#toggle{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
 #githubIcon {
-    color: whitesmoke;
     height: 2rem;
     width: 2rem;
+    color: whitesmoke;
 }
 
 #githubIcon:hover {color: rgba(255,255,255,.80);}
 
 #linkedinIcon {
-    color: whitesmoke;
     height: 2rem;
     width: 2rem;
+    color: whitesmoke;  
+}
+
+.dark {
+    color: (10,10,10);
+}
+
+.light {
+    color: whitesmoke;
 }
 
 #linkedinIcon:hover {color: rgba(255,255,255,.80);}
 
 @media (min-width: 1024px) {
-    #hr-line {
+    #light_hr-line #dark_hr-line{
         height: .125em;
     }
     #githubIcon #linkedinIcon {

@@ -1,7 +1,9 @@
+/*DOM*/
 html {
   scroll-behavior: smooth;
 }
 
+/*App*/
 .App {
   text-align: center;
 }
@@ -14,6 +16,7 @@ html {
   padding: 0 1rem;
 }
 
+/*Buttons*/
 #know-more-btn {
   font-size: 150%;
   background-image: linear-gradient(135deg,#E90DDA,#15CFF1);
@@ -72,6 +75,7 @@ html {
   
 }
 
+/*Media Queries*/
 @media (max-width: 768px) {
   #email #project-button #resume #know-more-btn {
       font-size: 100%;
