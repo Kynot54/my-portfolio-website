@@ -111,7 +111,7 @@ export const button = [
         //Contact
         id: "email",
         variantType: "outline-light",
-        hLink: "mailto:&#107;&#121;&#108;&#101;&#046;&#119;&#104;&#121;&#110;&#111;&#116;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;",
+        hLink: "mailto:kyle.whynott@gmail.com",
         name: "Email",
         size: "lg",
     }
