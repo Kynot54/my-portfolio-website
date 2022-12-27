@@ -9,6 +9,7 @@
 
 .text {
     color: white;
+    align-content: center;
 }
 
 #email-container {
