@@ -11,14 +11,14 @@ import "./index.css"
 
 
 export default function MyFooter() {
-    const [theme, setTheme] = useState('light')
-    const toggleTheme = () => {
-        if (theme === "light"){
-            setTheme("dark")
-        } else {
-            setTheme("light")
-        }
-    }
+    // const [theme, setTheme] = useState('light')
+    // const toggleTheme = () => {
+    //     if (theme === "light"){
+    //         setTheme("dark")
+    //     } else {
+    //         setTheme("light")
+    //     }
+    // }
     return (
         <>
             <footer id={`${theme}_footer`}>
