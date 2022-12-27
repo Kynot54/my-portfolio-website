@@ -11,17 +11,9 @@ import "./index.css"
 
 
 export default function MyFooter() {
-    // const [theme, setTheme] = useState('light')
-    // const toggleTheme = () => {
-    //     if (theme === "light"){
-    //         setTheme("dark")
-    //     } else {
-    //         setTheme("light")
-    //     }
-    // }
     return (
         <>
-            <footer id={`${theme}_footer`}>
+            <footer id="light_footer">
                 <Container>
                     <Row>
                         <Col></Col>
@@ -34,15 +26,8 @@ export default function MyFooter() {
                         <Col></Col>
                     </Row>
                     <Row className="justify-content-md-center">
-                        <Col lg="8"><hr id={`${theme}_hr-line`} /></Col> {/*Horizontal Line*/}
+                        <Col lg="8"><hr id="light_hr-line" /></Col> {/*Horizontal Line*/}
                     </Row>
-                    {/* <Row>
-                        <Col></Col>
-                        <Col lg="2">
-                            <Button id="toggle" variant={`outline-${theme}`} onClick={toggleTheme}>Toggle Theme</Button>
-                        </Col>
-                        <Col></Col>
-                    </Row> */}
                 </Container>
             </footer>
         </>       
